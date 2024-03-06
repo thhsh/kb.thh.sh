@@ -1,0 +1,50 @@
+site_name: Working Notes
+theme:
+  name: material
+  logo: localassets/TH-handwritten-logo.png
+  favicon: localassets/favicon-32x32.png
+  palette: 
+      scheme: slate
+      primary: deep orange
+      accent: orange
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - content.code.select
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - pymdownx.keys:
+      separator: +
+      strict: false
+      camel_case: false
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
+      enabled: true
+      type: date
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+  - search
+  - awesome-pages
+  - typeset:
+      enabled: true
+copyright: CC &copy; 2024 Tristan Hils | This work is openly licensed via CC BY-SA 4.0.
