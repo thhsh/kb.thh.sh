@@ -8,7 +8,7 @@ This command is what's currently working to properly build this site:
 ```
 git fetch --unshallow && pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git mkdocs-git-revision-date-localized-plugin pip install mkdocs-awesome-pages-plugin; mkdocs build --site-dir public
 ```
-See the important note below about the `GH_TOKEN` environment variable.
+See the important note below about the `GH_TOKEN` environment variable.  
 **Build output directory:** `/public`
 
 ## Cloudflare Pages Environment Variables
