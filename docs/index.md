@@ -13,9 +13,11 @@ Also quoting [:octicons-link-external-16: Robb](https://intersect.rknight.me/),
 
 ## How does it work?
 
-I've got a git repo of Markdown files, processed through [:simple-materialformkdocs: Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/), and then the output is dumped out to [:simple-cloudflarepages: Cloudflare Pages](https://pages.dev).
+I've got a git repo of Markdown files, processed through [:simple-materialformkdocs: Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/insiders/), and then the output is dumped out to [:simple-cloudflarepages: Cloudflare Pages](https://pages.dev).
 
 There's more about how this site is put together over in the [:octicons-gear-16: Meta section](meta/index.md).
+
+On the off chance you're looking for it, the source for this site is over on GitHub at [:material-github: thhsh/kb.thh.sh](https://github.com/thhsh/kb.thh.sh).
 
 ## Why "Working Notes"?
 This thing is a forever-ongoing project that is never going to be finished. There isn't a final product, and most of the content is likely going to be notes about various life things, that are likely going to be useful to primarily **me**. Hence, *Working Notes*. (And, `#thanksADHD`, I can't remember a damn thing on my own, so it's also my working memory most of the time.)
