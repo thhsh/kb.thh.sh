@@ -1,8 +1,8 @@
 site_name: Working Notes
 theme:
   name: material
-  logo: localassets/TH-handwritten-logo.png
-  favicon: localassets/favicon-32x32.png
+  logo: local-assets/TH-handwritten-logo.png
+  favicon: local-assets/favicon-32x32.png
   palette: 
       scheme: slate
       primary: deep orange
