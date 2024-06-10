@@ -15,7 +15,7 @@ Also quoting [:octicons-link-external-16: Robb](https://intersect.rknight.me/),
 
 I've got a git repo of Markdown files, processed through [:simple-materialformkdocs: Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/insiders/), and then the output is dumped out to [:simple-cloudflarepages: Cloudflare Pages](https://pages.dev).
 
-There's more about how this site is put together over in the [:octicons-gear-16: Meta section](meta/index.md).
+There's more about how this site is put together over in the [:octicons-gear-16: Meta section](Meta/index.md).
 
 On the off chance you're looking for it, the source for this site is over on GitHub at [:material-github: thhsh/kb.thh.sh](https://github.com/thhsh/kb.thh.sh).
 
