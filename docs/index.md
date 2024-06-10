@@ -1,6 +1,6 @@
 # The Intro
 
-:material-hand-wave: Hey there! I'm [:fontawesome-solid-person-hiking: Tristan](https://thh.sh) and this site is ~~my digital garden~~ ~~my commonplace book~~ ~~my second brain~~ **Working Notes**.
+:material-hand-wave: Hey there! I'm [:fontawesome-solid-person-hiking: Tristan](https://thh.sh) and this site is ~~my digital garden~~  ~~my commonplace book~~  ~~my second brain~~ **Working Notes**.
 
 ## What is this?
 To pull from [:octicons-link-external-16: Robb Knight's *The Intersect*](https://intersect.rknight.me/),  
