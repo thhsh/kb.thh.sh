@@ -21,7 +21,7 @@ For **each** Production and Preview environment, do the following:
 1. Click **Edit Variables**
 2. Click **Add Variable**
 3. Set the **Variable Name** to `GH_TOKEN`
-4. Copy the API key from [:simple-1password: 1Password](https://start.1password.com/open/i?a=B5NVCNGFJBCCLCDCN5FKFPGVBI&v=jsiictzq3qvzmkew4xt5mjqi6u&i=w5l45q5wofbqe4s2qhtyn4dk3a&h=blackcat-labs.1password.com) (:octicons-lock-24: Internal) and paste it in the **Value** box
+4. Copy the API key from [:simple-1password: 1Password](https://start.1password.com/open/i?a=B5NVCNGFJBCCLCDCN5FKFPGVBI&v=jsiictzq3qvzmkew4xt5mjqi6u&i=w5l45q5wofbqe4s2qhtyn4dk3a&h=starcatbrands.1password.com) (:octicons-lock-24: Internal) and paste it in the **Value** box
 5. Click the grey **Encrypt** button
 6. Click **Save**
 
