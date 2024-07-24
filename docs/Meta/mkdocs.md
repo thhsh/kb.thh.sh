@@ -6,10 +6,12 @@ This site is  built and hosted using Cloudflare Pages. These are a couple notes 
 This command is what's currently working to properly build this site:  
 **Build command:**  
 ```
-git fetch --unshallow && pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git mkdocs-git-revision-date-localized-plugin pip install mkdocs-awesome-pages-plugin; mkdocs build --site-dir public
+git fetch --unshallow && pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git && pip install mkdocs-awesome-pages-plugin && pip3 install mkdocs-git-revision-date-localized-plugin && mkdocs build --site-dir public
 ```
 See the important note below about the `GH_TOKEN` environment variable.  
 **Build output directory:** `/public`
+
+(I'm sure there's a way to clean up this command some, but it's what is working for me for now!)
 
 ## Cloudflare Pages Environment Variables
 Since we're using [:simple-materialformkdocs: Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/insiders/), the build command needs access to the private GitHub repo where Insiders is hosted. We give Cloudflare Pages an API key to allow it to access this repo.
