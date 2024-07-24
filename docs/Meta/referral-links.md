@@ -17,10 +17,15 @@ Referral links are awesome! You get free/discounted stuff, I get free/discounted
 
 [:simple-hetzner: Hetzner](https://hetzner.cloud/?ref=IIuhj6LrT9FO)
 
--   VPS provider
+-   VPS & dedicated server provider
 -   €20 account credit
 
 [:material-digital-ocean: DigitalOcean](https://m.do.co/c/c5295afb8b71)
 
 -   VPS provider
 -   $200 account credit, valid for 60 days
+
+[:fontawesome-solid-up-down: Updown.io](https://updown.io/r/GnH68)
+
+-   Simple, inexpensive website monitoring
+-   Get an extra 100k free credits
