@@ -4,14 +4,25 @@ This site is  built and hosted using Cloudflare Pages. These are a couple notes 
 
 ## Finalized Build Command
 This command is what's currently working to properly build this site:  
+
+!!! warning "Updated build command"
+    The build command below has been updated to reflect that the `mkdocs-material-insiders` repo is now being mirrored to a private Github repo within the 41N org. The deprecated build command is still stored below, for posterity.
+
 **Build command:**  
 ```
-git fetch --unshallow && pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git && pip install mkdocs-awesome-pages-plugin && pip3 install mkdocs-git-revision-date-localized-plugin && mkdocs build --site-dir public
+git fetch --unshallow && pip install git+https://oauth2:${GH_TOKEN}@github.com/41-north/mkdocs-material-insiders_mirror.git && pip install mkdocs-awesome-pages-plugin && pip3 install mkdocs-git-revision-date-localized-plugin && mkdocs build --site-dir public
 ```
 See the important note below about the `GH_TOKEN` environment variable.  
 **Build output directory:** `/public`
 
 (I'm sure there's a way to clean up this command some, but it's what is working for me for now!)
+
+??? note "Deprecated build command"
+    This is the previous build command used, which is now deprecated as noted above.
+
+    ```
+    git fetch --unshallow && pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git && pip install mkdocs-awesome-pages-plugin && pip3 install mkdocs-git-revision-date-localized-plugin && mkdocs build --site-dir public
+    ```
 
 ## Cloudflare Pages Environment Variables
 Since we're using [:simple-materialformkdocs: Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/insiders/), the build command needs access to the private GitHub repo where Insiders is hosted. We give Cloudflare Pages an API key to allow it to access this repo.
@@ -23,7 +34,7 @@ For **each** Production and Preview environment, do the following:
 1. Click **Edit Variables**
 2. Click **Add Variable**
 3. Set the **Variable Name** to `GH_TOKEN`
-4. Copy the API key from [:simple-1password: 1Password](https://start.1password.com/open/i?a=B5NVCNGFJBCCLCDCN5FKFPGVBI&v=jsiictzq3qvzmkew4xt5mjqi6u&i=w5l45q5wofbqe4s2qhtyn4dk3a&h=starcatbrands.1password.com) (:octicons-lock-24: Internal) and paste it in the **Value** box
+4. Copy the API key from [:simple-1password: 1Password](https://start.1password.com/open/i?a=B5NVCNGFJBCCLCDCN5FKFPGVBI&v=jsiictzq3qvzmkew4xt5mjqi6u&i=lefcltdoiybedpaadhyoaqmsem&h=starcatbrands.1password.com) (:octicons-lock-24: Internal) and paste it in the **Value** box
 5. Click the grey **Encrypt** button
 6. Click **Save**
 
